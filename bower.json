@@ -1,6 +1,5 @@
 {
   "name": "simple-css-grid",
-  "version": "0.0.1",
   "description": "css framework",
   "main": "./dist/css/SimpleGrid/simpleGrid.css",
   "authors": [
@@ -18,7 +17,7 @@
     "README.md",
     "gulpfile.js",
     "css/main.scss",
-    "dist/main.scss",
+    "dist/main.css",
     "index.html"
   ]
 }
