@@ -15,7 +15,11 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "package.json",
+    "README.md",
+    "gulpfile.js",
     "test",
+    "index.html",
     "tests"
   ]
 }
