@@ -17,6 +17,8 @@
     "package.json",
     "README.md",
     "gulpfile.js",
+    "css/main.scss",
+    "dist/main.scss",
     "index.html"
   ]
 }
