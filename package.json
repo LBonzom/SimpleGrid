@@ -1,13 +1,10 @@
 {
-  "name": "v-grid",
+  "name": "simple-grid",
   "version": "1.0.0",
   "description": "css framework",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "css/simpleGrid/simpleGrid.scss",
+  "author": "Laurent Bonzom <laurent.bonz@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",

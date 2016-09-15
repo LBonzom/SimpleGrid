@@ -1,0 +1,20 @@
+{
+  "name": "simple-grid",
+  "description": "css framework",
+  "main": "css/simpleGrid/simpleGrid.scss",
+  "authors": [
+    "Laurent Bonzom <laurent.bonz@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "grid"
+  ],
+  "homepage": "https://github.com/Arctanne/SimpleGrid",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
