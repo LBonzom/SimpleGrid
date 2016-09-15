@@ -1,0 +1,425 @@
+/* ===========================
+   SimpleGrid-Grid
+   =========================== */
+
+/* Column Offsets */
+.col-o10 {
+  margin-left: 10%;
+}
+
+.col-012, .col-013 {
+  margin-left: 12.5%;
+}
+
+.col-o16, .col-o17 {
+  margin-left: 16.6666%;
+}
+
+.col-o20 {
+  margin-left: 20%;
+}
+
+.col-o25 {
+  margin-left: 25%;
+}
+
+.col-o33 {
+  margin-left: 33.3333%;
+}
+
+.col-o40 {
+  margin-left: 40%;
+}
+
+.col-o50 {
+  margin-left: 50%;
+}
+
+.col-o60 {
+  margin-left: 60%;
+}
+
+.col-o66, .col-o67 {
+  margin-left: 66.6666%;
+}
+
+.col-o75 {
+  margin-left: 75%;
+}
+
+.col-o80 {
+  margin-left: 80%;
+}
+
+.col-o90 {
+  margin-left: 90%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-12, .col-13 {
+  width: 12.5%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-33, .col-34 {
+  width: 33.3333%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-66, .col-67 {
+  width: 66.6666%;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+.col-80 {
+  width: 80%;
+}
+
+.col-90 {
+  width: 90%;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.ncol-o10 {
+  margin-left: 10%;
+}
+
+.ncol-012, .ncol-013 {
+  margin-left: 12.5%;
+}
+
+.ncol-o16, .ncol-o17 {
+  margin-left: 16.6666%;
+}
+
+.ncol-o20 {
+  margin-left: 20%;
+}
+
+.ncol-o25 {
+  margin-left: 25%;
+}
+
+.ncol-o33 {
+  margin-left: 33.3333%;
+}
+
+.ncol-o40 {
+  margin-left: 40%;
+}
+
+.ncol-o50 {
+  margin-left: 50%;
+}
+
+.ncol-o60 {
+  margin-left: 60%;
+}
+
+.ncol-o66, .ncol-o67 {
+  margin-left: 66.6666%;
+}
+
+.ncol-o75 {
+  margin-left: 75%;
+}
+
+.ncol-o80 {
+  margin-left: 80%;
+}
+
+.ncol-o90 {
+  margin-left: 90%;
+}
+
+.ncol-10 {
+  width: 10%;
+}
+
+.ncol-12, .ncol-13 {
+  width: 12.5%;
+}
+
+.ncol-20 {
+  width: 20%;
+}
+
+.ncol-25 {
+  width: 25%;
+}
+
+.ncol-33, .ncol-34 {
+  width: 33.3333%;
+}
+
+.ncol-40 {
+  width: 40%;
+}
+
+.ncol-50 {
+  width: 50%;
+}
+
+.ncol-60 {
+  width: 60%;
+}
+
+.ncol-66, .ncol-67 {
+  width: 66.6666%;
+}
+
+.ncol-75 {
+  width: 75%;
+}
+
+.ncol-80 {
+  width: 80%;
+}
+
+.ncol-90 {
+  width: 90%;
+}
+
+/* Responsive Grid Classes */
+/* Adding a class of responsive-X to a row */
+/* will trigger the flex-direction to */
+/* change to column and add some margin */
+/* to any columns in the row for clearity */
+
+//@include responsive-grid-break('.responsive-sm', $grid-responsive-sm-break);
+//@include responsive-grid-break('.responsive-md', $grid-responsive-md-break);
+//@include responsive-grid-break('.responsive-lg', $grid-responsive-lg-break);
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb25 {
+  margin-bottom: 25px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr25 {
+  margin-right: 25px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.pt5 {
+  padding-top: 5px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pt25 {
+  padding-top: 25px;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+.pb5 {
+  padding-bottom: 5px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
+.pb15 {
+  padding-bottom: 15px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.pb25 {
+  padding-bottom: 25px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pl5 {
+  padding-left: 5px;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pl15 {
+  padding-left: 15px;
+}
+
+.pl20 {
+  padding-left: 20px;
+}
+
+.pl25 {
+  padding-left: 25px;
+}
+
+.pl30 {
+  padding-left: 30px;
+}
+
+.pr5 {
+  padding-right: 5px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pr15 {
+  padding-right: 15px;
+}
+
+.pr20 {
+  padding-right: 20px;
+}
+
+.pr25 {
+  padding-right: 25px;
+}
+
+.pr30 {
+  padding-right: 30px;
+}
+
+// Float left element
+.sg-fl {
+  float: left;
+}
+
+// Float right element
+.sg-fr {
+  float: right;
+}
+
+// Inline-Block element
+.sg-ib {
+  display: inline-block;
+}

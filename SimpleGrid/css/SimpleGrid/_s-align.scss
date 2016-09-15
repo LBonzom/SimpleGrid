@@ -1,0 +1,96 @@
+/* ===========================
+   SimpleGrid-Align
+   =========================== */
+
+// Container of item and other container. Must be direct parent of any items.
+// Add class hcenter or vcenter to the container dom element.
+.sa-container {
+  font-size: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sa-free-container {
+  font-size: 0;
+  line-height: normal;
+  white-space: normal;
+}
+
+.sa-free-container > .sa-item {
+  max-width: 100%;
+}
+
+.sa-container > .sa-container, .sa-free-container > .sa-container {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.sa-container > .sa-free-container, .sa-free-container > .sa-free-container {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 100%;
+}
+
+//Container for absolute position.
+.sa-abs-container {
+  position: relative;
+}
+
+// Item. Must be direct child of container.
+// Class hcenter and vcenter placed on parent element (container) will affect child position.
+.sa-item {
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  white-space: normal;
+}
+
+// Item with position absolute
+.sa-abs-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+// Vertical center of item.
+.vcenter > .sa-item, .vcenter > .sa-container, .vcenter > .sa-free-container {
+  vertical-align: middle !important;
+}
+
+// Vertical center of item.
+.sa-container.vcenter:before {
+  content: "" !important;
+  font-size: 0 !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+  width: 0 !important;
+  height: 100% !important;
+}
+
+// Horizontal center of item.
+.sa-container.hcenter, .sa-free-container.hcenter {
+  text-align: center;
+}
+
+// Horizontal center of item.
+.sa-abs-container.hcenter > .sa-abs-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Vertical center of item.
+.sa-abs-container.vcenter > .sa-abs-item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+// To prevent container's items line breaking.
+.sa-container.fixed {
+  white-space: nowrap;
+}

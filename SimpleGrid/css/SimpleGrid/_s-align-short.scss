@@ -1,0 +1,96 @@
+/* ===========================
+   SimpleGrid-Align
+   =========================== */
+
+// Container of item and other container. Must be direct parent of any items.
+// Add class hc or vc to the container dom element.
+.sa-c {
+  font-size: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sa-fc {
+  font-size: 0;
+  line-height: normal;
+  white-space: normal;
+}
+
+.sa-fc > .sa-i {
+  max-width: 100%;
+}
+
+.sa-c > .sa-c, .sa-fc > .sa-c {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.sa-c > .sa-fc, .sa-fc > .sa-fc {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 100%;
+}
+
+//Container for absolute position.
+.sa-ac {
+  position: relative;
+}
+
+// Item. Must be direct child of container.
+// Class hc and vc placed on parent element (container) will affect child position.
+.sa-i {
+  font-size: 1rem;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  white-space: normal;
+}
+
+// Item with position absolute
+.sa-ai {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+// Vertical center of item.
+.vc > .sa-i, .vc > .sa-c, .vc > .sa-fc {
+  vertical-align: middle !important;
+}
+
+// Vertical center of item.
+.sa-c.vc:before {
+  content: "" !important;
+  font-size: 0 !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+  width: 0 !important;
+  height: 100% !important;
+}
+
+// Horizontal center of item.
+.sa-c.hc, .sa-fc.hc {
+  text-align: center;
+}
+
+// Horizontal center of item.
+.sa-ac.hc > .sa-ai {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Vertical center of item.
+.sa-ac.vc > .sa-ai {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+// To prevent container's items line breaking.
+.sa-c.fixed {
+  white-space: nowrap;
+}

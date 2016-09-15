@@ -1,0 +1,33 @@
+/* ===========================
+   SimpleGrid-Util
+   =========================== */
+
+.su-oh {
+  overflow: hidden;
+}
+
+.su-close {
+  overflow: hidden;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.su-ellipsis {
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.su-hide {
+  display: none;
+}
+
+.su-touch-scroll {
+  -webkit-overflow-scrolling: touch;
+}

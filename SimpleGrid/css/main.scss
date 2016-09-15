@@ -1,0 +1,27 @@
+@import 'SimpleGrid/simpleGrid';
+
+section {
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+
+.free-parent-style {
+  background-color: aquamarine;
+  padding: 30px 0;
+}
+
+.locked-parent-style {
+  background-color: aquamarine;
+  height: 800px;
+  padding: 30px 0;
+}
+
+.free-child-style {
+  background-color: coral;
+}
+
+.locked-child-style {
+  background-color: coral;
+  height: 100px;
+  width: 150px;
+}
