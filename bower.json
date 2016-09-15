@@ -2,7 +2,7 @@
   "name": "simple-grid",
   "version": "0.0.1",
   "description": "css framework",
-  "main": "css/simpleGrid/simpleGrid.scss",
+  "main": "./dist/css/SimpleGrid/simpleGrid.css",
   "authors": [
     "Laurent Bonzom <laurent.bonz@gmail.com>"
   ],
@@ -12,14 +12,11 @@
   ],
   "homepage": "https://github.com/Arctanne/SimpleGrid",
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "package.json",
     "README.md",
     "gulpfile.js",
-    "test",
     "index.html",
-    "tests"
   ]
 }
