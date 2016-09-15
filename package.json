@@ -1,8 +1,8 @@
 {
   "name": "simple-css-grid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "css framework",
-  "main": "css/simpleGrid/simpleGrid.scss",
+  "main": "./dist/css/SimpleGrid/simpleGrid.css",
   "author": "Laurent Bonzom <laurent.bonz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
