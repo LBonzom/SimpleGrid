@@ -17,6 +17,6 @@
     "package.json",
     "README.md",
     "gulpfile.js",
-    "index.html",
+    "index.html"
   ]
 }
