@@ -1,5 +1,6 @@
 {
   "name": "simple-css-grid",
+  "version": "0.0.2",
   "description": "css framework",
   "main": "./dist/css/SimpleGrid/simpleGrid.css",
   "authors": [
