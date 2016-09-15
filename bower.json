@@ -17,7 +17,7 @@
     "README.md",
     "gulpfile.js",
     "css/main.scss",
-    "dist/main.css",
+    "dist/css/main.css",
     "index.html"
   ]
 }
