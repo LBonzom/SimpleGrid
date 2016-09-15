@@ -1,5 +1,5 @@
 {
-  "name": "simple-grid",
+  "name": "simple-css-grid",
   "version": "0.0.1",
   "description": "css framework",
   "main": "./dist/css/SimpleGrid/simpleGrid.css",
