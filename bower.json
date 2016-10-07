@@ -10,7 +10,7 @@
   "keywords": [
     "grid"
   ],
-  "homepage": "https://github.com/Arctanne/SimpleGrid",
+  "homepage": "https://github.com/LBonzom/SimpleGrid",
   "ignore": [
     "node_modules",
     "bower_components",
